@@ -1,4 +1,5 @@
 #!/bin/sh
+export FILTER_BRANCH_SQUELCH_WARNING=1
 git filter-branch --env-filter '
 OLD_EMAIL="OLD_EMAIL"
 CORRECT_NAME="NEW_NAME"
